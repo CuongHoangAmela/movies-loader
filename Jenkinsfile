@@ -6,7 +6,6 @@ node('workers'){
     try {
         stage('Checkout'){
             checkout scm
-            notifySlack('STARTED')
         }
 
         stage('Unit Tests'){
