@@ -77,8 +77,6 @@ def notifySlack(String buildStatus){
     } else {
         colorCode = '#c62828c'
     }
-
-    slackSend (color: colorCode, message: summary)
 }
 
 
